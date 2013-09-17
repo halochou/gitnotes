@@ -1,38 +1,38 @@
 #Body
-<body bgcolor="yellow">
+`<body bgcolor="yellow">
 ...
-</body>
+</body>`
 #Heading
-<h1>-<h6> #heading line.
-<h1 align="center">
+`<h1>-<h6> #heading line.
+<h1 align="center">`
 #Paragraph
-<p></p> #paragraph
+`<p></p> #paragraph`
 #Symbol
-<br /> #empty content use opening mark to close 
-<hr /> #split line
+`<br /> #empty content use opening mark to close 
+<hr /> #split line`
 #Anchor
-<a href="www.example.com">A Link</a> #hyperlink
+`<a href="www.example.com">A Link</a> #hyperlink
 <a href="#tips">Jump link to detail</a> #will lead page jump to :
-<a name="tips">The Detail Content</a>
+<a name="tips">The Detail Content</a>`
 #Comment
-<!-- This is a comment -->
+`<!-- This is a comment -->`
 #Code
-<pre>code will hold whitespaces.</pre>
+`<pre>code will hold whitespaces.</pre>
 <code>Computer code</code>
 <kbd>Keyboard input</kbd>
 <tt>Teletype text</tt>
 <samp>Sample text</samp>
-<var>Computer variable</var>
+<var>Computer variable</var>`
 #Quote
-<blockquote>
+`<blockquote>
 This is a lone quote which has many words.
 </blockquote>
-
-<q>
+`
+`<q>
 Short quote.
-</q>
+</q>`
 #Table
-<table border="1"> #2 X 2 Table
+`<table border="1"> #2 X 2 Table
 <tr> #Tabel Row
 <td>row 1, cell 1</td> #Table Data
 <td>row 1, cell 2</td>
@@ -42,20 +42,20 @@ Short quote.
 <td>row 2, cell 2</td>
 </tr>
 </table>
-
+`
 #List
 ##Unordered List/Bullit
-<ul>
+`<ul>
 <li>Coffee</li>
 <li>Milk</li>
-</ul>
+</ul>`
 ##Ordered List
-<ol>
+`<ol>
 <li>Coffee</li>
 <li>Milk</li>
-</ol>
+</ol>`
 #Form
-<form action="http://www.example.com/test.asp" method="post/get">
+`<form action="http://www.example.com/test.asp" method="post/get">
 <input type="text" name="lastname" value="Nixon" size="30" maxlength="50">
 <input type="password">
 <input type="checkbox" checked="checked">
@@ -70,8 +70,8 @@ Short quote.
 </select>
 <textarea name="Comment" rows="60"
 cols="20"></textarea>
-</form>
+</form>`
 #Entitlement
-&lt; is the same as <
+`&lt; is the same as <
 &gt; is the same as >
-&#169; is the same as ©
+&#169; is the same as ©`
